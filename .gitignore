@@ -1,0 +1,28 @@
+# Python
+*.py[cod]
+__pycache__/
+
+# Virtual Environments
+venv/
+env/
+Pipfile.lock
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.emacs.desktop
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+
+# Sensitive or personal files
+secret.txt
+api_key.json
