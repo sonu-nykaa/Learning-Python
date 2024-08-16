@@ -1,16 +1,17 @@
-# This is a sample Python script.
+marks = [55, 64, 75, 80, 43]
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+result = sum(marks)
+average = result / len(marks)
+
+if average >= 80:
+    print("A")
+elif average >= 60:
+    print("B")
+elif average >= 50:
+    print("C")
+else:
+    print("F")
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+class Student:
+    pass
